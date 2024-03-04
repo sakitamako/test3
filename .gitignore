@@ -31,6 +31,7 @@ Temporary Items
 *.gif
 *.png
 
+# 自分で追加したやつ
 *.pdf
 *.txt
 *.log
