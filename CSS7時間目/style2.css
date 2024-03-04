@@ -1,0 +1,23 @@
+.box1{
+ float:right;
+ width:100px;
+ height:200px;
+ background-color:aquamarine;
+ text-align:center;
+}
+
+.box2{
+ float:right;
+ width:100px;
+ height:200px;
+ background-color:antiquewhite;
+ text-align:center;
+}
+
+.box3{
+ float:right;
+ width:100px;
+ height:200px;
+ background-color:dimgrey;
+ text-align:center;
+}
