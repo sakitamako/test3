@@ -25,9 +25,14 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# 画像ファイルはコミットしないようにする
 *.jpg
-*.pdf
+*.jpeg
+*.gif
 *.png
+
+*.pdf
 *.txt
 *.log
 *.img
+
