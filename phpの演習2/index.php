@@ -1,32 +1,3 @@
-<?php
-
-session_start();
-
-$name = "";
-$mail = "";
-$age = "";
-$comments = "";
-$errorName = "";
-$errorMail = "";
-$errorAge = "";
-$errorComments = "";
-
-if (isset($_SESSION['name']) && isset($_SESSION['mail']) && isset($_SESSION['age']) && isset($_SESSION['comments'])) {
-    $name = !is_null($_SESSION['name']) ? $_SESSION['name']:"";
-    $name = !is_null($_SESSION['mail']) ? $_SESSION['mail']:"";
-    $name = !is_null($_SESSION['age']) ? $_SESSION['age']:"";
-    $name = !is_null($_SESSION['comments']) ? $_SESSION['comments']:"";
-}
-
-if (isset($_SESSION['error_name']) && isset($_SESSION['error_mail']) && isset($_SESSION['error_age']) && isset($_SESSION['error_comments'])) {
-    $errorName = $_SESSION['error_name'] ? 1 : 0;
-    $errorMail = $_SESSION['error_mail'] ? 1 : 0;
-    $errorAge = $_SESSION['error_age'] ? 1 : 0;
-    $errorComments = $_SESSION['error_comments'] ? 1 : 0;
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang = "ja">
     <head>
